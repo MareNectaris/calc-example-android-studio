@@ -262,6 +262,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 val = String.valueOf(sum3);
 
                             }
+                            /*
+                                                    case 4:
+
+                            if (count2 == 1) {
+
+                                fsum3 = fsum1 / fsum2;
+                                val = String.valueOf(fsum3);
+                            } else {
+                                sum3 = sum1 / sum2;
+                                val = String.valueOf(sum3);
+
+                            }
+                             */
+
                             outPut.setText(val);
                             arrayList.clear();
                             break;
