@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_8.setOnClickListener(this);
         btn_9.setOnClickListener(this);
 
-        String customFont = "fonts/D2Coding.ttf";
+        String customFont = "fonts/RobotoMono-Regular.ttf";
         Typeface typeface = Typeface.createFromAsset(getAssets(), customFont);
         TextView textView = (TextView) findViewById(R.id.outPut);
         textView.setTypeface(typeface);
